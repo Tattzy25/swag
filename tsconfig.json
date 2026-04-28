@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["esnext"],
+    "lib": ["esnext", "dom"],
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
