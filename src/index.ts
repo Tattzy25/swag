@@ -112,7 +112,8 @@ app.listen(PORT, () => {
 });
 
 // Base URL for the credit-store API
-const API_URL = process.env.MCP_API_URL || "https://api.example.com/credit-store";
+const API_URL =
+  process.env.MCP_API_URL || "swag-production-c5da.up.railway.app";
 
 // Helper function for making API requests
 async function makeAPIRequest<T>(url: string, method: string, body?: any, headers?: HeadersInit): Promise<T | null> {
